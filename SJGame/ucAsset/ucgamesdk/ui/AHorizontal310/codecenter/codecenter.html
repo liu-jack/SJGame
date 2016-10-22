@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+
+<script type="text/javascript" src="../common/js/sdkBase.js?1377598790557"></script>
+<script type="text/javascript" src="../common/js/environment.js?1377598790557"></script>
+<script type="text/javascript">
+document.addEventListener( 'bridgeready',  function() {
+    var sdkBaseObj = new sdkBase ();
+    sdkBaseObj.request(sdkBaseObj.servType.COMMON, sdkBaseObj.actions.STAT, {
+        business :  'page.user.h5_Code_p.usercenter',
+        step :      'enter'
+    });
+    var userInfo = sdkBaseObj.request ( sdkBaseObj.servType.COMMON, sdkBaseObj.actions.GET_CURR_USER );
+    var gameInfo = sdkBaseObj.request(sdkBaseObj.servType.COMMON, sdkBaseObj.actions.GET_GAME_INFO);
+    var sdkInfo = sdkBaseObj.request(sdkBaseObj.servType.COMMON, sdkBaseObj.actions.GET_SDK_INFO);
+    if(userInfo && userInfo.success && gameInfo && gameInfo.success && sdkInfo && sdkInfo.success) {
+        window.location.href = eConfig.validCodeCenterUrl + '?from=sdk_user&caller=sdk' + 
+                        '&version=' + sdkInfo.data.ve + '&gameId=' + gameInfo.data.gameId + 
+                        '&sid=' + userInfo.data.sid + '#!codeCenter/usercenter';
+    } else {
+        window.location.href = '../user/user.html';
+    }
+});
+</script>
+</body>
+</html>

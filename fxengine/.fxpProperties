@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="c8c6cbb2-4a87-4a26-a22c-e226a4fc5568" projectUUID="c8c6cbb2-4a87-4a26-a22c-e226a4fc5568" pureCatalystProject="false" sdkVersion="4.6.0" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a" version="15">
+  <projects/>
+  <src>
+    <linked isMain="false" location="${EXLIB}/away3d/src" path="${EXLIB}/away3d/src" position="0" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked isMain="false" location="${EXLIB}/starling/starling/src" path="${EXLIB}/starling/starling/src" position="1" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked isMain="false" location="${EXLIB}/feathers-1.0.0/source" path="${EXLIB}/feathers-1.0.0/source" position="2" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+  </src>
+  <swc>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked location="E:/Object/air-ios/airplane/trunk/fxengine/extendslibs" path="/extendslibs" position="1" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked location="${FLEXUNIT_LIB_LOCATION}/version4libs/Common" path="${FLEXUNIT_LIB_LOCATION}/version4libs/Common" position="2" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked location="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject" position="3" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked location="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject_Extended" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject_Extended" position="4" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+    <linked location="${FLEXUNIT_LOCALE_LOCATION}/version4locale/" path="${FLEXUNIT_LOCALE_LOCATION}/version4locale/" position="5" uuid="10e4cae3-2d77-468c-b130-07c03d9a803a"/>
+  </swc>
+  <misc/>
+  <theme/>
+  <mxmlFormattingPrefs groupAttributesByState="true" maxLineWidth="100" mxmlAlignAttributes="true" mxmlAttributeOrder="id,userLabel,includeIn,excludeFrom,visible,x,y,z,left,right,top,bottom,width,height,minWidth,minHeight,maxWidth,maxHeight,label" mxmlKeepAttributeValuesOrganized="true"/>
+</fxpProperties>

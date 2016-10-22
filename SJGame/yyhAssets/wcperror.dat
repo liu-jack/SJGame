@@ -1,0 +1,9 @@
+{
+"general_error":"支付失败!",
+"sendsms_error":"短信发送失败！请确保您的手机有信号",
+"setcontext_error":"支付失败！请确保您的手机网络可用",
+"waitsms_error":"支付失败！",
+"network_error":"支付失败！请确保您的手机网络可用",
+"carrier_error":"支付失败！请确保您的手机有信号",
+"usercancel_error": "您已取消购买"
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="SJGame.as" projectUUID="3a5566ef-88c7-442c-b952-7c42d2f5bc6e" version="11">
+  <compiler additionalCompilerArguments="-locale en_US &#13;&#10;-swf-version=21&#13;&#10;-define+=CONFIG::onlinever,false &#13;&#10;-define+=CONFIG::localver,!CONFIG::onlinever &#13;&#10;-define+=CONFIG::tech,false&amp;&amp;!CONFIG::onlinever&#13;&#10;-define+=CONFIG::CHANNELID,&quot;0&quot;&#13;&#10;-define+=CONFIG::CHANNELID_1,&quot;CONFIG::CHANNELID == 1&quot;&#13;&#10;-define+=CONFIG::CHANNELID_2,&quot;CONFIG::CHANNELID == 2&quot;&#13;&#10;-define+=CONFIG::CHANNELID_3,&quot;CONFIG::CHANNELID == 3&quot;&#13;&#10;-define+=CONFIG::CHANNELID_4,&quot;CONFIG::CHANNELID == 4&quot;&#13;&#10;-define+=CONFIG::CHANNELID_5,&quot;CONFIG::CHANNELID == 5&quot;&#13;&#10;-define+=CONFIG::CHANNELID_6,&quot;CONFIG::CHANNELID == 6&quot;&#13;&#10;-define+=CONFIG::CHANNELID_7,&quot;CONFIG::CHANNELID == 7&quot;&#13;&#10;-define+=CONFIG::CHANNELID_8,&quot;CONFIG::CHANNELID == 8&quot;&#13;&#10;-define+=CONFIG::CHANNELID_9,&quot;CONFIG::CHANNELID == 9&quot;&#13;&#10;-define+=CONFIG::CHANNELID_10,&quot;CONFIG::CHANNELID == 10&quot;&#13;&#10;-define+=CONFIG::CHANNELID_11,&quot;CONFIG::CHANNELID == 11&quot;&#13;&#10;-define+=CONFIG::CHANNELID_12,&quot;CONFIG::CHANNELID == 12&quot;&#13;&#10;-define+=CONFIG::CHANNELID_13,&quot;CONFIG::CHANNELID == 13&quot;&#13;&#10;-define+=CONFIG::CHANNELID_14,&quot;CONFIG::CHANNELID == 14&quot;&#13;&#10;-define+=CONFIG::CHANNELID_15,&quot;CONFIG::CHANNELID == 15&quot;" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
+    <compilerSourcePath>
+      <compilerSourcePathEntry kind="1" linkType="1" path="ucAsset"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="xiaomiAsset"/>
+    </compilerSourcePath>
+    <libraryPath defaultLinkType="0">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="1" linkType="1" path="${PROJECT_FRAMEWORKS}/locale/{locale}"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/netmon.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/videoPlayer.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flash-integration.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/authoringsupport.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/framework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/airspark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/applicationupdater.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/utilities.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/datavisualization.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_flashflexkit.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/applicationupdater_ui.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/air/airframework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mobile/mobilecomponents.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/Common"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/ASProject"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/ASProject_Extended"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LOCALE_LOCATION}/version4locale/"/>
+      <libraryPathEntry kind="3" linkType="1" path="/fxengine/bin-debug/fxengine.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/360.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/AirPushNotification.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/com.adobe.extension.Networkinfo.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/com.dk.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/com.downjoy.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/HelloAne.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/InApp.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/MiCommplateform.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/ndcommplatform.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/NdComPlatform.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/ucgamesdk.android.ane"/>
+      <libraryPathEntry kind="5" linkType="2" path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/UCGameSDKANEObjc.ane"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="SJGame.as">
+      <airExcludes/>
+    </application>
+  </applications>
+  <modules/>
+  <workers/>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+  <buildTargets>
+    <buildTarget buildTargetName="device" iosSettingsVersion="2" isCurrent="false" platformId="com.adobe.flexide.multiplatform.ios.platform" provisioningFile="J:/Object/flash/android-ios-crossplatform-engine/client/documents/airkey/company8_development.mobileprovision" releasePackageType="ipa-app-store">
+      <airSettings airCertificatePath="J:/Object/flash/android-ios-crossplatform-engine/client/documents/airkey/appstore_debug_company8_1.p12" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes>
+          <pathEntry path="tb_ui_config.json"/>
+          <pathEntry path="tips_button.9.png"/>
+          <pathEntry path="tipsGameIcon.png"/>
+          <pathEntry path="Cordova.plist"/>
+          <pathEntry path="button_back@2x.png"/>
+          <pathEntry path="button_bar.png"/>
+          <pathEntry path="float_button_position.json"/>
+          <pathEntry path="tips_button_press.9.png"/>
+          <pathEntry path="float_menu.json"/>
+          <pathEntry path="button_bar@2x.png"/>
+          <pathEntry path="float_button.json"/>
+          <pathEntry path="tipsClose.png"/>
+          <pathEntry path="init_uiproj_portrait.xml"/>
+          <pathEntry path="button_back.png"/>
+          <pathEntry path="orient_change.ini"/>
+          <pathEntry path="tipsBackgroundSelected.9.png"/>
+          <pathEntry path="tipsBackground.9.png"/>
+          <pathEntry path="Default-568h@2x.png"/>
+          <pathEntry path="bottom_menu.json"/>
+          <pathEntry path="tipsCloseActive.png"/>
+          <pathEntry path="init_uiproj_landscape.xml"/>
+        </airExcludes>
+        <anePaths>
+          <anePathEntry path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/AirPushNotification.ane"/>
+          <anePathEntry path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/HelloAne.ane"/>
+        </anePaths>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="true" hideAneLibSymbols="0" includePlatformLibs="false" platformID="com.adobe.flexide.multiplatform.ios.platform" reducedSizePackaging="false" version="2"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+    <buildTarget buildTargetName="default" isCurrent="false" platformId="com.qnx.flexide.multiplatform.qnx.platform">
+      <airSettings airCertificatePath="" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes/>
+        <anePaths/>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="false" hideAneLibSymbols="0" includePlatformLibs="false" platformID="com.qnx.flexide.multiplatform.qnx.platform" reducedSizePackaging="false" version="2"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+    <buildTarget airDownloadURL="https://market.android.com/details?id=com.adobe.air" androidSettingsVersion="2" buildTargetName="device" isCurrent="false" platformId="com.adobe.flexide.multiplatform.android.platform">
+      <airSettings airCertificatePath="J:/Object/flash/android-ios-crossplatform-engine/client/documents/airkey/android_key.p12" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes/>
+        <anePaths>
+          <anePathEntry path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/AirPushNotification.ane"/>
+          <anePathEntry path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/HelloAne.ane"/>
+          <anePathEntry path="J:/Object/flash/android-ios-crossplatform-engine/client/trunk/libs/ndcommplatform.ane"/>
+        </anePaths>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="true" hideAneLibSymbols="0" includePlatformLibs="false" platformID="com.adobe.flexide.multiplatform.android.platform" reducedSizePackaging="false" version="2"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+    <buildTarget buildTargetName="default" isCurrent="false" platformId="default">
+      <airSettings airCertificatePath="J:/Object/flash/android-ios-crossplatform-engine/airplane/documents/airkey/windowairkey.p12" airTimestamp="true" anePathSet="true" version="1">
+        <airExcludes/>
+        <anePaths/>
+        <newLaunchParams/>
+        <modifiedLaunchParams/>
+        <newPackagingParams/>
+        <modifiedPackagingParams/>
+      </airSettings>
+      <multiPlatformSettings enabled="false" hideAneLibSymbols="0" includePlatformLibs="false" platformID="default" reducedSizePackaging="false" version="2"/>
+      <actionScriptSettings version="1"/>
+    </buildTarget>
+  </buildTargets>
+</actionScriptProperties>
